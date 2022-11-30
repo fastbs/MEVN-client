@@ -1,0 +1,18 @@
+import { createWebHistory, createRouter } from "vue-router";
+
+import Grid from "@/views/Grid.vue";
+import Chart from "@/views/Chart.vue";
+import Schedule from "@/views/Schedule.vue";
+
+const routes = [
+  { path: "/Schedule", component: Schedule },
+  { path: "/Chart", component: Chart },
+  { path: "/", component: Grid },
+];
+
+const router = createRouter({
+  history: createWebHistory(),
+  routes,
+});
+
+export default router;

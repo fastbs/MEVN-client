@@ -1,0 +1,97 @@
+{
+    "gantt": {
+        "data": [
+            {
+                "TaskID": 1,
+                "TaskName": "Project Initiation",
+                "StartDate": "2019-04-01T13:00:00.000Z",
+                "EndDate": "2019-04-20T13:00:00.000Z",
+                "subtasks": [
+                    {
+                        "TaskID": 2,
+                        "TaskName": "Identify Site location",
+                        "StartDate": "2019-04-01T13:00:00.000Z",
+                        "Duration": 4,
+                        "Progress": 50
+                    },
+                    {
+                        "TaskID": 3,
+                        "TaskName": "Perform Soil test",
+                        "StartDate": "2019-04-01T13:00:00.000Z",
+                        "Duration": 4,
+                        "Progress": 50
+                    },
+                    {
+                        "TaskID": 4,
+                        "TaskName": "Soil test approval",
+                        "StartDate": "2019-04-01T13:00:00.000Z",
+                        "Duration": 4,
+                        "Progress": 50
+                    }
+                ]
+            },
+            {
+                "TaskID": 5,
+                "TaskName": "Project Estimation",
+                "StartDate": "2019-04-01T13:00:00.000Z",
+                "EndDate": "2019-04-20T13:00:00.000Z",
+                "subtasks": [
+                    {
+                        "TaskID": 6,
+                        "TaskName": "Develop floor plan for estimation",
+                        "StartDate": "2019-04-03T13:00:00.000Z",
+                        "Duration": 3,
+                        "Progress": 50
+                    },
+                    {
+                        "TaskID": 7,
+                        "TaskName": "List materials",
+                        "StartDate": "2019-04-03T13:00:00.000Z",
+                        "Duration": 3,
+                        "Progress": 50
+                    },
+                    {
+                        "TaskID": 8,
+                        "TaskName": "Estimation approval",
+                        "StartDate": "2019-04-03T13:00:00.000Z",
+                        "Duration": 3,
+                        "Progress": 50
+                    }
+                ]
+            }
+        ],
+        "height": "450px",
+        "taskFields": {
+            "id": "TaskID",
+            "name": "TaskName",
+            "startDate": "StartDate",
+            "endDate": "EndDate",
+            "duration": "Duration",
+            "progress": "Progress",
+            "dependency": "Predecessor",
+            "child": "subtasks"
+        },
+        "toolbar": [
+            "Add",
+            "Edit",
+            "Update",
+            "Delete",
+            "Cancel",
+            "ExpandAll",
+            "CollapseAll",
+            "ExcelExport",
+            "CsvExport",
+            "PdfExport"
+        ],
+        "editSettings": {
+            "allowAdding": true,
+            "allowEditing": true,
+            "allowDeleting": true,
+            "allowTaskbarEditing": true,
+            "showDeleteConfirmDialog": true,
+            "allowExcelExport": true
+        }
+    },
+    "title": "Первая диаграмма Ганта",
+    "desription": "Описание"
+}

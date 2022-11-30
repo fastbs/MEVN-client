@@ -1,0 +1,145 @@
+{
+    "height": "370px",
+    "readOnly": true,
+    "allowExcelExport": false,
+    "allowPdfExport": false,
+    "enableContextMenu": false,
+    "allowSorting": true,
+    "allowResizing": true,
+    "highlightWeekends": false,
+    "taskFields": {
+        "id": "TaskID",
+        "name": "TaskName",
+        "startDate": "StartDate",
+        "endDate": "EndDate",
+        "duration": "Duration",
+        "progress": "Progress",
+        "dependency": "Predecessor",
+        "child": "subtasks",
+        "notes": "Info",
+        "resourceInfo": "Resources"
+    },
+    "workWeek": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+    ],
+    "toolbar": [
+        "Add",
+        "Edit",
+        "Update",
+        "Delete",
+        "Cancel",
+        "ExpandAll",
+        "CollapseAll",
+        "ZoomIn",
+        "ZoomOut",
+        "ZoomToFit"
+    ],
+    "editSettings": {
+        "allowAdding": false,
+        "allowEditing": false,
+        "allowDeleting": false,
+        "allowTaskbarEditing": true,
+        "showDeleteConfirmDialog": true,
+        "allowExcelExport": false,
+        "allowPdfExport": false
+    },
+    "contextMenuItems": [
+        "AutoFitAll",
+        "AutoFit",
+        "TaskInformation",
+        "DeleteTask",
+        "Save",
+        "Cancel",
+        "SortAscending",
+        "SortDescending",
+        "Add",
+        "DeleteDependency",
+        "Convert",
+        {
+            "text": "Collapse the Row",
+            "target": ".e-content",
+            "id": "collapserow"
+        },
+        {
+            "text": "Expand the Row",
+            "target": ".e-content",
+            "id": "expandrow"
+        },
+        {
+            "text": "Вложения",
+            "target": ".e-content",
+            "id": "attachments",
+            "iconCss": "mdi mdi-18px mdi-attachment"
+        },
+        {
+            "text": "Эксперимент",
+            "target": ".e-content",
+            "id": "stuff",
+            "iconCss": "mdi mdi-18px mdi-axe"
+        },
+        {
+            "text": "Hide Column",
+            "target": ".e-gridheader",
+            "id": "hidecols"
+        },
+        {
+            "text": "Show all Columns",
+            "target": ".e-gridheader",
+            "id": "showcols"
+        }
+    ],
+    "editDialogFields": [
+        {
+            "type": "General",
+            "headerText": "Свойства"
+        },
+        {
+            "type": "Dependency",
+            "headerText": "Зависимости"
+        },
+        {
+            "type": "Resources",
+            "headerText": "Ресурсы"
+        },
+        {
+            "type": "Notes",
+            "headerText": "Примечания"
+        },
+        {
+            "type": "Custom",
+            "headerText": "Дополнительно"
+        }
+    ],
+    "resourceFields": {
+        "id": "resourceId",
+        "name": "resourceName"
+    },
+    "editingResources": [
+        {
+            "resourceId": 1,
+            "resourceName": "Мясо"
+        },
+        {
+            "resourceId": 2,
+            "resourceName": "Соль"
+        },
+        {
+            "resourceId": 3,
+            "resourceName": "Перец"
+        },
+        {
+            "resourceId": 4,
+            "resourceName": "Лук"
+        },
+        {
+            "resourceId": 5,
+            "resourceName": "Уголь древесный"
+        }
+    ]
+}
